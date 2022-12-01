@@ -1,0 +1,115 @@
+body {
+    background-image: url("beachBG.jfif");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-bg-nav {
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-image: url("beachBG.jfif");
+    background-position: -20px -50px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9999 !important;
+}
+
+.custom-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav {
+    margin-top: 5px;
+}
+
+.navContainer {
+    width: 50%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.nav-ul {
+    right: 0;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hamburger {
+    border: none;
+    font-family: 'Roboto';
+}
+
+.collapse {
+    width: 100%;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    color: black;
+}
+
+.hamburger:hover, .hamburger:active, .hamburger:focus, .hamburger:visited {
+    border: none;
+    color: black;
+}
+
+i {
+    color: black;
+}
+
+.link-style {
+    font-family: 'Roboto';
+    letter-spacing: 3px;
+    text-shadow: .5px .5px white;
+}
+
+.robotoFont {
+    font-family: 'Roboto';
+}
+
+p, h1, h2, h3 {
+    font-family: 'Playfair Display';
+}
+
+.jumbotron1 {
+    background: url("sunset.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: 0px -450px;
+    min-height: 300px;
+    max-height: fit-content;
+}
+
+.jumbotron2 {
+    background: url("beachVacay.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: 0px -150px;
+    min-height: 300px;
+}
+
+.jumbotron3 {
+    background: url("mountains.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: 0px -150px;
+    min-height: 300px;
+}
+
+.shadowText {
+    text-shadow: 1px 1px white;
+}
+
+#notes {
+    min-height: 200px;
+}
